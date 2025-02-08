@@ -1,0 +1,390 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+
+.top-bar {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.contact span {
+    margin-right: 15px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.pay-now {
+    background-color: black;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: black;
+    color: white;
+    padding: 50px 20px;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+.offers {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background: white;
+}
+
+.feature-item {
+    background: #eee;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.about {
+    padding: 30px;
+}
+
+.view-more {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.services {
+    background: white;
+    padding: 40px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+}
+.logo-image {
+    width: 900px;  
+    height: auto;  
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+
+.what-we-are {
+    padding: 40px;
+    background-color: white;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.grid-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+.trending-courses {
+    padding: 40px;
+    background: black;
+    color: white;
+}
+
+.course-card {
+    background: #222;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-card h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.course-card p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.read-more {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tabs button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tabs .active {
+    background-color: red;
+    color: white;
+}
+
+.info {
+    background: #ffffff;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+.experts {
+    background: white;
+    color: white;
+    padding: 20px;
+}
+
+.call-button {
+    background: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reviews {
+    padding: 20px;
+}
+
+.review-card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.success-stories {
+    padding: 20px;
+}
+
+.stories-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.story-card {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.story-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.register {
+    background: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+}
+img-container{  
+  width: ;10px
+  height :30px ;
+  
+}
+.contact-button {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    border: 1px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+}
+
+.contact-button:hover {
+    background-color: #333; 
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e2e2e2;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info div {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.container {
+  background-color :black;
+}
+p{
+  color:red;
+}
+.contact-info{
+  color:red;
+}
